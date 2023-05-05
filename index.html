@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST (Yaswanth)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="../Images/to-do-list.png">
+</head>
+
+<body>
+    <!-- Container div for the To-do-list box -->
+    <div class="container">
+
+        <div class="todobox">
+         
+         <!-- To-do-list Heading -->
+        
+            <h2>
+            <span class="title-word title-word-1">TO</span> 	
+            <span class="title-word title-word-2">DO</span>
+            <span class="title-word title-word-3">LIST</span>
+            </h2>
+
+            <!-- Input box for adding Tasks -->
+            <div class="taskbox">
+                <input type="text" id="input-box" placeholder="Enter Your Task">
+                <button onclick="addTask()">Add</button>
+            </div>
+
+            <!-- list of tasks that willbe added with the help of Javascript -->
+            
+            <ul id="list-container">
+            	<!-- <li class="checked">task1</li>
+                <li>task2</li>
+                <li>task3</li> -->
+            </ul>
+        </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
